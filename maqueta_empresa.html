@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> advoCAT</title>
+        <link rel="icon" type="image/jpg" href=".\logo_peque.png"
+		<meta charset="UTF-8">
+		<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: ;	
+		}
+		nav {
+			width: 100%;
+			background: white;
+			overflow: auto;
+		}
+		ul {
+			padding: 0;
+			margin: 0 0 0 630px;
+			list-style: none;				
+		}
+		li {
+			float: left;	
+		}
+		.logo img {
+			position: absolute;
+			margin-top: 3px;
+			margin-left: 5px;
+			width: 180px;
+		}
+		.logo2 img {
+			position: absolute;
+			margin-top: 3px;
+			margin-left: 1480px;
+			width: 180px;
+			float: left;
+
+		}
+		nav a {
+			width: 100px;
+			display: block;
+			padding: 20px 15px;
+			text-decoration: none;
+			font-family: Arial;
+			color: black;
+			text-align: right;
+		}
+		nav a:hover {
+			background: lightgray;
+			transition; 0.5s;
+			text-transform: uppercase;	
+		}
+		#contenedor {
+			width: 700px;
+			margin: auto;
+			float: right;
+			overflow: hidden;
+		}
+		#contenedor ul {
+			list-style: none;
+			width: 1800px;
+			display: flex;
+			
+			animation: slide 20s infinite alternate;
+		}
+		img {
+			width: 700px;
+
+		}
+		@keyframes slide {
+			0% {margin-left: 0px;}
+			20% {margin-left: 0px;}
+			
+			25% {margin-left: -700px;}
+			45% {margin-left: -700px;}
+			
+			50% {margin-left: -1400px;}
+			70% {margin-left: -1400px;}
+			
+			75% {margin-left: -2100px;}
+			100% {margin-left: -2100px;}
+		}
+		#preu {
+			text-align: center;
+			background-color: #CCC;
+			width: 100%;
+			font-size: 30px;
+			margin: 0 10px 0 10px;
+		}
+		.text1 {
+			font-size: 20px;
+			text-align: center;
+		}
+		.text2 {
+			text-align: center;	
+		}
+		.div1 {
+			font-size: 20px;
+		}
+		#logo-mapa img {
+			float: left;
+			width: 100px;
+			margin-left: 10px;
+		}
+		#logo-mapa2 img {
+			float: right;
+			width: 100px;
+			margin-right: 10px;
+		}
+		#text-mapa {
+			text-align: center;	
+		}
+		.mapa {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		/*Pie de página*/
+		footer {
+			background: white;
+			margin: 0 10px 0 10px;
+			color: black;
+			text-align: center;
+			box-sizing: border-box;
+			text-family: Arial;
+			font-size: 18px;
+		}
+		</style>
+	</head>
+	<body style="background-color:grey;">
+    	<div class="logo">
+        	<a href="#"><img src="./logo_small.png"></a>
+		</div>
+        <div class="logo2">
+        	<a href="#"><img src="./logo_small.png"></a>
+		</div> 
+        <nav>
+			<ul>
+				<li><a href="./maqueta_empresa.html">Home</a></li>
+				<li><a href="./maqueta_empresa_servicios.html">Serveis</a></li>
+				<li><a href="./maqueta_empresa_quienes_somos.html">Qui som?</a></li>
+				<li><a href="./maqueta_empresa_contacto.html">Contacta'ns</a></li>
+			</ul>
+		</nav>
+		<div id="contenedor">
+			<ul>
+				<li><img src=".\imagen1.jpg" alt=""></li>
+				<li><img src=".\imagen2.jpg" alt=""></li>
+				<li><img src=".\imagen3.jpg" alt=""></li>
+				<li><img src=".\imagen4.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="div1">
+			<p>Som una empresa especialitzada, en el servei jurídic. On té més de 25 anys d'experiència amb casos i judicis de tot tipus.</p>
+			<p>La sede principal està situda a Barcelona, on es pot anar i fer la seva consulta sense cap mena de cost.</p>
+			<p>El nostre equip es de 10 advocats amb l'experiència necessària per l'ajuda que necessiti.</p>
+			<p>L'oficina compta amb una àmplia experiència en l'assesorament en els sectors públics i privats.</p>
+            <p>Si tens qualsevol consulta pots posar-te en contàcte amb nosaltres.</p>
+		</div>
+			<br>
+			<br>
+			<br>
+            <br>
+			<br>
+			<br>
+			<br>
+			<br>
+            <br>
+			<br>
+			<br>
+        <div id="preu">
+        	<p>CONFIA EN NOSALTRES, <br> PER TAN SOLS 199,99€ <b>ANUALS</b>.</p>
+        </div>
+        <div id="logo-mapa">
+        	<a href="#"><img src="./logo_blanco.png"></a>
+        </div>  
+        <div id="logo-mapa2">
+        	<a href="#"><img src="./logo_blanco.png"></a>
+        </div>
+        <p class="text1"> Per més informació consulta al <b>904 342 005</b>.</p>
+        <p class="text2">O envia'ns la teva consulta a <a href="./maqueta_empresa_contacto.html"> CONTACTA'NS</a></p>
+        <!-- MAPA -->
+        <div id="text-mapa">
+			<h2>LOCALITZACIÓ D'ADVOCAT</h2>
+			<p>La seu centra d'AdvoCAT la pots trobar al carrer Compte d'Urgell 250</p>
+		</div>
+		<div class="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3692529805426!2d2.147888946185117!3d41.38778667118145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2847eeed3b5%3A0xfcbfd60966182d80!2sInstitut%20Escola%20del%20Treball!5e0!3m2!1ses!2ses!4v1619536319887!5m2!1ses!2ses" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+        <!-- PIE DE PÁGINA -->
+        <footer>
+        	Derechos Reservados &copy; 2021
+            	<br>
+           	Diseñado por Winston Saltos
+        </footer>
+	</body>
+</html>
